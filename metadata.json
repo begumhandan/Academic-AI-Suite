@@ -1,0 +1,5 @@
+{
+  "name": "ScholarAI",
+  "description": "An intelligent academic writing assistant that helps refine, expand, and format academic text using Google Gemini.",
+  "requestFramePermissions": []
+}
