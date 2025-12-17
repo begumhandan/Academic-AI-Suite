@@ -1,67 +1,104 @@
-Academic AI Suite
+# 🎓 Academic AI Suite
 
-AI-First Academic Document Editor Prototype
+<div align="center">
+  
+  ![Status](https://img.shields.io/badge/Status-Prototype-orange)
+  ![License](https://img.shields.io/badge/License-MIT-blue)
+  ![Tech](https://img.shields.io/badge/Built%20With-React%20%7C%20Vite%20%7C%20Gemini-blueviolet)
 
-Academic AI Suite, akademik yazım sürecini yapay zekâ merkezli bir yaklaşımla yeniden tasarlayan bir doküman editörü prototipidir.
+  **Yapay Zeka Merkezli Akademik Doküman Editörü**
+  
+  *Akademik yazım sürecini sadece kolaylaştıran değil, yapılandıran ve yöneten akıllı bir asistan.*
 
-Amaç; yapay zekâyı yalnızca metin üreten bir araç olarak değil,
-akademik yazım sürecinde karar destekleyici bir asistan olarak konumlandırmaktır.
+  [Demo Videosunu İzle](#-demo) • [Kurulum](#-kurulum) • [Özellikler](#-özellikler)
+</div>
 
-🎯 Temel Yaklaşım
+---
 
-Yapay zekâ yazarın yerine geçmez
+## 📖 Proje Hakkında
 
-Kullanıcının aldığı akademik kararları
-daha hızlı, tutarlı ve standartlara uygun hâle getirir
+**Academic AI Suite**, akademik yazım sürecini yapay zekâ merkezli bir yaklaşımla yeniden tasarlayan bir doküman editörü prototipidir. 
 
-Metin üretmekten ziyade metni yönetir
+Bu projenin temel amacı; yapay zekâyı yalnızca metin üreten ("text generator") bir araç olarak değil, akademik yazım sürecinde **karar destekleyici bir asistan** olarak konumlandırmaktır. AI, yazarın yerine geçmez; yazarın aldığı kararları daha hızlı, tutarlı ve standartlara uygun hale getirir.
 
-🧠 Özellikler
-✍️ Metin Düzenleme & Akademik Dil
+> **"Yapay zeka metin üretmekten ziyade, süreci yönetir."**
 
-Gramer, anlatım bozukluğu ve tekrar analizi
+## 🎥 Demo
 
-Akademik ton önerileri
+Projenin çalışır halini ve temel özelliklerini aşağıdaki videodan izleyebilirsiniz:
 
-Değişikliklerin karşılaştırmalı gösterimi
+[![Academic AI Suite Demo](http://img.youtube.com/vi/dSTozXuNRmg/0.jpg)](https://www.youtube.com/watch?v=dSTozXuNRmg)
 
-🌍 Akademik Çeviri (TR ↔ EN)
+> **Proje Linki:** [Google AI Studio üzerinde inceleyin](https://ai.studio/apps/drive/1IPyN_7uOoo3EFHx95UhFa2GDt0nkuXtx?fullscreenApplet=true)
 
-Bağlam ve terminoloji odaklı çeviri
+---
 
-Resmî ve edilgen akademik üslup korunur
+## 🚀 Özellikler
 
-📑 Literatür & Metin Özetleme
+### ✍️ Metin Düzenleme & Akademik Dil
+*   **Gramer & Stil Analizi:** Anlatım bozukluklarını, gramer hatalarını ve gereksiz tekrarları tespit eder.
+*   **Akademik Ton:** Metninizi daha resmi ve akademik bir dile çevirmek için öneriler sunar.
+*   **Akıllı Karşılaştırma:** Yapılan değişiklikleri öncesi/sonrası şeklinde detaylıca gösterir.
 
-Betimleyici veya eleştirel özet seçenekleri
+### 🌍 Akademik Çeviri (TR ↔ EN)
+*   **Bağlam Odaklı Çeviri:** Sadece kelime çevirisi değil, terminolojiye uygun bağlamsal çeviri yapar.
+*   **Üslup Koruma:** Bilimsel metinlerin gerektirdiği resmi ve edilgen çatı yapısını korur.
 
-Kullanıcı kontrollü özet uzunluğu
+### 📑 Literatür & Metin Özetleme
+*   **Esnek Özetleme:** İster betimleyici, ister eleştirel özetler oluşturun.
+*   **Uzunluk Kontrolü:** Özetin ne kadar detaylı olacağını siz belirleyin.
 
-📝 AI Destekli Doküman Editörü
+### 📝 AI Destekli Editör
+*   **Doğal Dil Komutları:** *"Bu paragrafı daha akademik yaz"* veya *"Giriş bölümünü genişlet"* gibi komutlarla düzenleme yapın.
+*   **Bölüm Bazlı Kontrol:** Tüm metni değil, sadece seçtiğiniz alanları optimize edin.
 
-“Bu paragrafı daha akademik yaz” gibi doğal dil komutları
+### 📚 Kaynakça & Atıf Yönetimi
+*   **Otomatik Formatlama:** APA, MLA, IEEE ve Harvard gibi popüler stillerde otomatik kaynakça oluşturur.
+*   **Standartlara Uygunluk:** Atıfların doğruluğunu ve tutarlılığını denetler.
 
-Bölüm bazlı ve hedefli düzenleme
+---
 
-📚 Kaynakça & Atıf Yönetimi
+## 🛠️ Kullanılan Teknolojiler ve Araçlar
 
-APA, MLA, IEEE, Harvard stilleri
+Bu proje modern web teknolojileri ve gelişmiş AI modelleri kullanılarak geliştirilmiştir.
 
-Kaynakların otomatik biçimlendirilmesi
+| Alan | Teknoloji / Araç |
+|------|------------------|
+| **Frontend** | React, Vite, TypeScript |
+| **AI Model** | Google Gemini (via Google AI Studio) |
+| **Tasarım** | Google Stitch, Akademik UI/UX Prensipleri |
+| **Analiz** | NotebookLM (Kavramsal analiz için) |
 
-🛠️ Kullanılan Araçlar
+---
 
-NotebookLM → Kavramsal analiz & yazım süreci modelleme
+## 💻 Kurulum
 
-Google Stitch → Akademik odaklı UI/UX tasarımı
+Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
 
-Google AI Studio → Gemini tabanlı AI yapılandırması ve prompt mühendisliği
+1.  **Repoyu klonlayın:**
+    ```bash
+    git clone https://github.com/begumhandan/scholarai.git
+    cd scholarai
+    ```
 
-🔍 Projenin Amacı
+2.  **Bağımlılıkları yükleyin:**
+    ```bash
+    npm install
+    ```
 
-Academic AI Suite, akademik yazımda yapay zekânın
-kontrol edilebilir, şeffaf ve kullanıcıyla birlikte çalışan
-bir yardımcı olarak nasıl tasarlanabileceğine dair bir prototip sunar.
+3.  **Çevresel Değişkenleri Ayarlayın:**
+    `.env.local` dosyası oluşturun ve Gemini API anahtarınızı ekleyin:
+    ```env
+    VITE_GEMINI_API_KEY=sizin_api_anahtariniz
+    ```
 
-🎥Youtube Demo Video Link:
-https://www.youtube.com/watch?v=dSTozXuNRmg
+4.  **Uygulamayı başlatın:**
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## 🔍 Projenin Vizyonu
+
+**Academic AI Suite**, akademik yazımda yapay zekânın **kontrol edilebilir, şeffaf ve kullanıcıyla birlikte çalışan** bir yardımcı olarak nasıl tasarlanabileceğine dair bir vizyon sunar. Hedefimiz, araştırmacıların ve öğrencilerin teknik detaylarda boğulmadan içeriklerine odaklanmalarını sağlamaktır.
